@@ -1,0 +1,40 @@
+.btn {
+  background-color: #374151; /* bg-gray-700 */
+  color: white; /* text-white */
+  border-radius: 9999px; /* rounded-full */
+  height: 4rem; /* h-16 */
+  width: 4rem; /* w-16 */
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 600; /* font-semibold */
+  display: flex; /* flex */
+  align-items: center; /* items-center */
+  justify-content: center; /* justify-center */
+  transition: transform 0.15s ease-in-out; /* transition-transform duration-150 ease-in-out */
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.btn.operator {
+  background-color: #f97316; /* bg-orange-500 */
+  color: white;
+}
+
+.btn.special {
+  background-color: #6b7280; /* bg-gray-500 */
+  color: black;
+}
+
+.btn.col-span-2 {
+  grid-column: span 2 / span 2;
+  width: 100%;
+}
+
+.calculator {
+  transition: all 0.3s ease;
+}
+
+.calculator:active {
+  transform: scale(0.98);
+}
