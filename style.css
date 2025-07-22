@@ -1,15 +1,15 @@
 .btn {
-  background-color: #374151; /* bg-gray-700 */
-  color: white; /* text-white */
-  border-radius: 9999px; /* rounded-full */
-  height: 4rem; /* h-16 */
-  width: 4rem; /* w-16 */
-  font-size: 1.5rem; /* text-2xl */
-  font-weight: 600; /* font-semibold */
-  display: flex; /* flex */
-  align-items: center; /* items-center */
-  justify-content: center; /* justify-center */
-  transition: transform 0.15s ease-in-out; /* transition-transform duration-150 ease-in-out */
+  background-color: #374151;
+  color: white;
+  border-radius: 9999px; 
+  height: 4rem; 
+  width: 4rem; 
+  font-size: 1.5rem; 
+  font-weight: 600; 
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  transition: transform 0.15s ease-in-out; 
 }
 
 .btn:active {
@@ -17,12 +17,12 @@
 }
 
 .btn.operator {
-  background-color: #f97316; /* bg-orange-500 */
+  background-color: #f97316; 
   color: white;
 }
 
 .btn.special {
-  background-color: #6b7280; /* bg-gray-500 */
+  background-color: #6b7280;
   color: black;
 }
 
